@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOCITY</title>
+    <!-- Conectando css-->
+    <link rel="stylesheet" href="Style.css/Index.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="moto.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navegação  -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><img src="moto.png">MotoCity</a>
+
+            <!-- Adicionando o ícone do menu hamburguer -->
+            <input type="checkbox" id="menu-toggle" style="display: none;">
+            <label class="menu-icon" for="menu-toggle">&#9776;</label>
+
+            <!-- Adicionando o menu -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Portifólio</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <a id="Comprar" href="#">Comprar</a>
+                </ul>
+            </nav>
+
+
+            <nav>
+                <a id="Empresa" href="#">Empresa</a>
+                <a id="Portifólio" href="#">Portifólio</a>
+                <a id="Contato" href="#">Contato</a>
+                <button id="Comprar" href="#">Comprar</button>
+            </nav>
+        </div>
+    </header>
+
+    <div id="divisao">
+        <hr>
+        <hr>
+    </div>
+    <!--  carrossel principal  -->
+
+    <div class="carousel">
+        <div class="carousel-inner">
+            <img src="https://cdn.shopify.com/s/files/1/0899/5402/products/IMG_3946.png?v=1614611508&width=1445"
+                alt="Imagem 1">
+            <img src="https://voltzmotors.com/wp-content/uploads/2021/09/EV1.png" alt="Imagem 2">
+            <img src="https://cdn.shopify.com/s/files/1/0899/5402/products/IMG_3946.png?v=1614611508&width=1445"
+                alt="Imagem 2">
+        </div>
+        <a class="carousel-prev" href="#" onclick="changeSlide(-1)">&lt;</a>
+        <a class="carousel-next" href="#" onclick="changeSlide(1)">&gt;</a>
+    </div>
+
+    <br /><br /><br /><br /><br />
+
+
+    <div id="divisao">
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+    </div>
+
+    <!-- Cards rotativos -->
+    <div class="bakground-cards">
+        <div class="container-inspiration">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="https://voltzmotors.com/wp-content/uploads/2021/02/1.jpg">
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                    <img src="https://voltzmotors.com/wp-content/uploads/2021/02/2.jpg">
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                    <img src="https://voltzmotors.com/wp-content/uploads/2021/02/3.jpg">
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div id="Empresa">
+        <h1>Sobre Nós</h1>
+        <div class="EmpresaCurio">
+            <img
+                src="https://www.automaistv.com.br/wp-content/uploads/2023/03/ultraviolette77-moto-eletrica-india-4_edited.jpg" />
+        </div>
+
+        <div class="Historia1">
+            <p>A MotoCity, fundada em 2023 na busca contínua por soluções mais sustentáveis e eficientes, a nossa
+                empresa de motos elétricas está liderando a revolução da mobilidade urbana. Combinando inovação,
+                tecnologia de ponta e compromisso com o meio ambiente, estamos oferecendo uma alternativa ecológica aos
+                veículos movidos a combustão interna. Neste texto, vamos apresentar os principais aspectos da nossa
+                empresa e como estamos transformando o setor de duas rodas..</p>
+        </div>
+        <br>
+        <div class="Empresa2">
+            <img src="https://cdn.motor1.com/images/mgl/0eVyRm/s3/ultraviolette77.jpg" />
+        </div>
+        <div class="Historia2">
+            <p>Nossa empresa tem como missão principal promover uma mobilidade sustentável, proporcionando aos clientes
+                uma experiência de condução emocionante, livre de emissões poluentes. Acreditamos que a eletrificação do
+                transporte é o futuro e estamos comprometidos em construir uma sociedade mais limpa e ecologicamente
+                responsável. Nossos valores fundamentais incluem inovação, qualidade, sustentabilidade e satisfação do
+                cliente.</p>
+        </div>
+    </div>
+
+    <br /><br /><br /><br /><br />
+
+    <!-- seção newsletter -->
+
+    <div class="newsemail">
+        <div id="newsemail-interact">
+            <p>Ser Biker é economia e, também, pode ser lucro.</p>
+            <p>Recomende a Loja para um amigo e os dois ganharão cashback.</p>
+            <form>
+                <input type="email" id="btnEmail" required>
+                <input type="submit" id="btnEnviar">
+            </form>
+        </div>
+        <img src="app-p5a8kbg7906x20kapb0ce98ufgbyqw9v1ayuy6v01s.png">
+    </div>
+
+    <br /><br />
+
+    <!-- seção produtos -->
+
+    <div id="produtos">
+
+        <div id="produtos">
+            <div id="prod">
+                <img src="001.jpg" alt="EV1 SPORT">
+                <h1>EV1 Sport</h1>
+                <p>R$ 15.890,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="prod">
+                <img src="001.jpg" alt="EV1 SPORT">
+                <h1>EV1 Sport</h1>
+                <p>R$ 15.890,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="prod">
+                <img src="001.jpg" alt="EV1 SPORT">
+                <h1>EV1 Sport</h1>
+                <p>R$ 15.890,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="prod">
+                <img src="001.jpg" alt="EV1 SPORT">
+                <h1>EV1 Sport</h1>
+                <p>R$ 15.890,00</p>
+                <button>Comprar</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <br /><br />
+
+    <div id="produtos">
+
+        <div id="produtos">
+            <div id="prod">
+                <img src="04.jpg" alt="EV1 SPORT">
+                <h1>EV1 Sport</h1>
+                <p>R$ 15.890,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="prod">
+                <img src="04.jpg" alt="EV1 SPORT">
+                <h1>EV1 Sport</h1>
+                <p>R$ 15.890,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="prod">
+                <img src="04.jpg" alt="EV1 SPORT">
+                <h1>EV1 Sport</h1>
+                <p>R$ 15.890,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="prod">
+                <img src="04.jpg" alt="EV1 SPORT">
+                <h1>EV1 Sport</h1>
+                <p>R$ 15.890,00</p>
+                <button>Comprar</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        <!--Plano de fundo do footer-->
+        <div class="footerbackground">
+
+            <!--Div responsável pelos contatos-->
+            <div class="footercontatos">
+                <p>Produtos</p>
+            </div>
+
+            <div class="footercontatos2">
+                <p>Institucional</p>
+            </div>
+
+            <div class="footercontatos3">
+                <p>Suporte</p>
+            </div>
+        </div>
+
+
+        <!--Div responsável pelas políticas adotadas pela loja-->
+
+        <div class="politicasfooter">
+            <p>Compare <br>
+                Acessórios <br>
+                Seja uma Autorizada
+            </p>
+            <hr>
+            <p> Imprensa<br>
+                Fale Conosco<br>
+                Portal da Transparência
+            </p>
+            <hr>
+            <p> Manual<br>
+                Encontre uma oficina<br>
+                Fale com um especialista
+            </p>
+        </div>
+        <!--div responsável pelas redes sociais-->
+        <div class="Redessociais">
+            <p>Redes Sociais</p>
+        </div>
+        <!--div responsavel pelos incones das Redes Sociais-->
+        <div class="icones">
+            <img src="instagram.png" />
+            <img src="facebook.png" />
+            <img src="twitter.png" />
+            <img src="tiktok.png" />
+            <img src="youtube.png" />
+        </div>
+        <p>Copyright © 2023 MotoCity</p>
+    </footer>
+
+    <script src="Style.js/Index.js"></script>
+</body>
+
+</html>

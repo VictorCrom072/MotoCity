@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+
+        body
+        {
+            background-color: rgb(117, 117, 117);
+        }
+
+        #btn input{
+            background: #ffffff;
+            color: rgb(0, 0, 0);
+            border-style: outset;
+            height: 40px;
+            width: 200px;
+            font: bold 15px arial,sans-serif;
+            text-shadow: none;
+            border-radius: 5px;
+            display: flex;
+            margin-left: 89px;
+        }
+
+        #btnMsg input{
+            background: #ffffff;
+            color: rgb(0, 0, 0);
+            border-style: outset;
+            height: 80px;
+            width: 200px;
+            font: bold 15px arial,sans-serif;
+            text-shadow: none;
+            border-radius: 5px;
+            display: flex;
+            margin-left: 89px;
+        }
+
+        #btn3 input{
+            background: #ffffff;
+            color: rgb(0, 0, 0);
+            border-style: outset;
+            height: 40px;
+            width: 90px;
+            font: bold 15px arial,sans-serif;
+            text-shadow: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 66px;
+        }
+
+        form
+        {
+            position: absolute;
+            left: 48%;
+            transform: translateX(-51%);
+            background-color: rgb(255, 255, 255);
+            padding: 50px;
+            border-radius: 5px;
+        }
+
+        h1, p
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1
+        {
+            margin-left: 41px;
+        }
+        p
+        {
+            font-weight: bolder;
+            padding: 2px;
+        }
+
+        .maps
+        {
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Formulário Cadastro</h1>
+        <p>Digite seu nome: </p>
+        <div id="btn">
+            <input type="text" id="txtNome" name="txtNome" placeholder="Nome"/>
+            <p>Digite seu Email: </p>
+            <input type="email" id="txtEmail" name="txtEmail" placeholder="Email"/>
+            <p>Digite sua mensagem : </p>
+        </div>
+
+        <div id="btnMsg">
+            <input type="text" id="txtMsg" name="txtMsg" placeholder="..."/>
+        </div>
+
+        <br/><br/>
+
+        <div id="btn3">
+            <input type="submit" id="submitForm" name="submitForm"/>
+            <input type="reset" id="resForm" name="submitForm"/>
+        </div>
+
+        <br/><br/>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14633.299089757642!2d-46.7277865!3d-23.5208186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1684435655182!5m2!1spt-BR!2sbr" width="400" height="300" style="border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </form>
+
+
+</body>
+</html>
